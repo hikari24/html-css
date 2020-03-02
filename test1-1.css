@@ -66,13 +66,26 @@ main {
 
 @media screen and (max-width:768px) {
 	main {
-		width: 445px;
+		width: 100%;
 	}
 	.step-box {
 		float: none;
 		width: 90%;
+		margin: 0 auto;
 	}
+
 	.step-box:nth-child(2) {
-		margin: 20px 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
+	.step-box:last-child {
+		margin: 0 auto;
+	}
+
+	.step-img1,
+	.step-img2,
+	.step-img3 {
+		height: 300px;
+}
+
 }
